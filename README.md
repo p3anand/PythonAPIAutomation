@@ -1,6 +1,5 @@
 
 Python API Automation Framework
-
 Hybrid Custom API Automation Framework include the proper folder structure
 
 Tech Stack
@@ -12,11 +11,11 @@ Tech Stack
 - Advance API Testcase - jsonschema
 - Parallel Execution - x distribute (xdist)
 
-How to Install Packages
+How to Install Packages:
 pip install requests pytest pytest-html faker allure-pytest jsonschema
 
-How to run your Testcase in Parallel 
+How to run your Testcase in Parallel: 
 pip install pytest-xdist 
 
-How to run the Basic Test with Allure report
+How to run the Basic Test with Allure report:
 pytest tests/tests/crud/test_create_booking.py  --alluredir=allure_result -s
