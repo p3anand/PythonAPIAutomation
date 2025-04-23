@@ -13,10 +13,10 @@ Tech Stack
 - Parallel Execution - x distribute (xdist)
 
 How to Install Packages
-pip install requests pytest pytest-html faker allure-pytest jsonschema
+- pip install requests pytest pytest-html faker allure-pytest jsonschema
 
-How to run your Testcase in Parallel 
-pip install pytest-xdist 
+How to run your Testcase in Parallel
+- pip install pytest-xdist 
 
 How to run the Basic Test with Allure report
-pytest tests/tests/crud/test_create_booking.py  --alluredir=allure_result -s
+- pytest tests/tests/crud/test_create_booking.py --alluredir=allure_result -s
